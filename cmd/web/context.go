@@ -2,4 +2,4 @@ package main
 
 type contextKey string
 
-const isAuthenticated = contextKey("isAuthenticated")
+const isAuthenticatedContextKey = contextKey("isAuthenticated")
